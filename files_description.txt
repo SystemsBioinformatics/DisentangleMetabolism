@@ -1,0 +1,50 @@
+python files (not plots):
+[Organism]_simulations = split of cat/ana based on energy carriers for that organism
+effect_of_variability = variability of cat/ana split based on energy carriers for E coli on glucose
+functions_precursors = file that contains the functions to calculate the biomass production flux distribution and the simulations for E. coli
+precursors_calculations_otherorgs = the calculation of the biomass production for all the other organisms
+
+
+npz files:
+EFMs_biomassprod_model = EFMs that were enumerated using CNApy for the biomass production model
+
+xml files: 
+iML1515_macroBOF_core = E coli model that we used for the simulations
+
+Result files, folder structure (xlsx)
+[organismname]: all (normal) simulations for that organism for the split based on energy carriers
+Precursor_simulations_Ecoli: simulations of the exchange based on precursors for E coli
+Precursor_simulations_otherOrgs: simulations of the exchange based on precursors for all other organisms
+Variability_check: simulations with alternative EFMs for the exchange of energy carriers
+
+
+Excel input files:
+Input file for each simulation
+
+
+Python files to make figures:
+heatmap_plot
+plot_Ecoli_ATPfrac
+plot_matrixplots_allorgs
+plot_respirofermentative_multipleDs
+plot_Stouthamer_barplot
+plots_threeparts
+
+
+Figure files missing:
+- all organisms bar plot
+- corellogram
+- comparison neidthart (is that in the heatmap plot file?)
+- macromolecules consume more glucose (appendix)
+- Variability of precursor simulations
+
+
+To do:
+refactor
+	separate_cat_ana_anycofactor2 -> separate_cat_ana_anycofactor
+	check if get_rank_check is necessary twice? 
+change file desinations in all simulations files to only have the folder structure
+Also ecoli_nitrogensources is gone now
+	Have separate folder for overflow?
+Test separate_cat_ana with chatGPT comment if it works
+Find other figure files
