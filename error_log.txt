@@ -1,9 +1,0 @@
-==== Batch run started at ma 25-08-2025 18:09:33,08 ==== 
-ma 25-08-2025 18:09:33,08 - Cljungdahli_simulations.py FAILED 
-ma 25-08-2025 18:11:03,64 - Ecoli_simulations.py FAILED 
-ma 25-08-2025 18:14:53,03 - Gmetallireducens_simulations.py FAILED 
-ma 25-08-2025 18:19:55,07 - Mbarkeri_simulations.py FAILED 
-ma 25-08-2025 18:20:29,26 - Pputida_simulations.py FAILED 
-ma 25-08-2025 18:24:27,77 - Synechocystis_simulations.py FAILED 
-ma 25-08-2025 18:25:41,90 - yeast_simulations.py FAILED 
-==== Batch run finished at ma 25-08-2025 18:28:58,24 ==== 
